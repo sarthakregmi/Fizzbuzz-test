@@ -4,9 +4,10 @@
 # In[1]:
 
 
-for i in range(5,100):
+for i in range(2,200):
     print("fizz"*(i%3<1) + (i%5<1)*"buzz" or i)
     print("Hello")
+    print("World")
 
 
 # In[ ]:
